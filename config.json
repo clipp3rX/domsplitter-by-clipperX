@@ -1,0 +1,45 @@
+{
+  "general": {
+    "threads": 15,
+    "timeout": 5.0,
+    "port_timeout": 2.0,
+    "follow_redirects": true,
+    "ignore_ssl_errors": false,
+    "output_dir": "results"
+  },
+  "analysis": {
+    "check_alive": true,
+    "dns": true,
+    "ssl": true,
+    "ports": true,
+    "whois": true,
+    "waf": true,
+    "screenshot": false
+  },
+  "output": {
+    "verbose": true,
+    "json": true,
+    "json_file": "results.json",
+    "output_file": "all_domains.txt",
+    "dead_file": "dead_domains.txt",
+    "html_report": true,
+    "html_report_file": "report.html"
+  },
+  "proxy": {
+    "enabled": false,
+    "url": "http://user:pass@host:port",
+    "rotate": false,
+    "proxy_list": []
+  },
+  "ports": {
+    "common": [21, 22, 25, 53, 80, 443, 8080, 8443],
+    "custom": []
+  },
+  "user_agents": [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.5; rv:90.0) Gecko/20100101 Firefox/90.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15"
+  ]
+}

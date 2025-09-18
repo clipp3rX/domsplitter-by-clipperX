@@ -1,4 +1,4 @@
-# Domain Splitter Advanced
+# domsplitter by clipperX
 
 ![Version](https://img.shields.io/badge/version-2.0-blue)
 ![Python](https://img.shields.io/badge/python-3.6%2B-green)

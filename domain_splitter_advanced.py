@@ -55,8 +55,8 @@ BANNER = f"""
   | |_| | (_) | | | | | | (_| | | | | |_| | |_| | | | ||  __/ |   
   |____/ \\___/|_| |_| |_|\\__, |_|_| |_|____/ \\__,_|_|_|\\__\\___|_|   
                          |___/                                      
-        {TOOL_NAME} v{VERSION} - Advanced Domain Analysis Tool
-        Author: {AUTHOR}
+        {domsplitter} v{2.0} - Advanced Domain Analysis Tool
+        Author: {clipperX}
 {Style.RESET_ALL}
 """
 
